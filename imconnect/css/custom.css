@@ -1,0 +1,439 @@
+/** ADD YOUR AWESOME CODES HERE **/
+#parallax_2 {
+    background-image: url(../images/triangle.png);
+    background-size: cover;
+    margin-top: -50px;
+}
+
+#parallax_2 .lead{
+    color: #ffffff  !important;
+}
+
+.parallax_3 .card{
+    height: auto !important;
+}
+
+.parallax_3 .lead{
+    font-size: 20px !important;
+    font-weight: bolder;
+    text-shadow: 0px 0px 0px 0px rgba(0, 0, 0, .2) !important;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.parallax_3 .lead:hover{
+    color: #ffffff!important;
+}
+
+
+.parallax_3 {
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#parallax_3 .lead{
+    color: #000000;
+}
+
+#video{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .2);
+}
+
+#parallax_6{
+    background-image: url(../images/wave_yellow.svg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#parallax_6 .heading_main h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 0 15px 0;
+    margin: 0 0 30px 0;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    background-image: url(../images/heading_main_border.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+#parallax_5 .heading_main h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 0 15px 0;
+    margin: 0 0 30px 0;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    background-image: url(../images/heading_main_border.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+#parallax_5 img{
+    box-shadow: 20px 20px rgba(0, 0, 0, .2);
+}
+
+#parallax_5{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#visi-misi{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#visi-misi .lead{
+    color: #000000;
+}
+
+.about-main-info{
+    background-color: rgb(248, 248, 248);
+}
+
+
+#parallax_6 h2{
+    font-size: 23px;
+	color: #095a83;
+	font-weight: 500;
+}
+
+#economy .card{
+	border-radius: 50px;
+	box-shadow: 3px 3px 15px #345e85;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all .3s ease-in;
+    height: 250px;
+}
+
+.program  .card{
+	border-radius: 50px;
+	box-shadow: 3px 3px 15px #345e85;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all .3s ease-in;
+    height: 220px;
+}
+
+.program .card p{
+    font-size: 14px !important;
+}
+
+.program .card:hover{
+	background: #257fac;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 3px 3px 10px #4a93d6;
+}
+
+.program .card h2{
+    font-size: 25px;
+    color: #345e85;
+    font-weight: 700;
+}
+
+
+.program .card:hover h2{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+.program .card:hover p{
+	color: #fff;
+} 
+
+#economy .card:hover{
+	background: #257fac;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 3px 3px 10px #4a93d6;
+}
+
+#row_1 .card{
+    border-radius: 50px;
+	box-shadow: 3px 3px 15px #345e85;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all .3s ease-in;
+    height: auto;
+}
+
+.collapsible-link::before {
+    content: '';
+    width: 14px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 1rem;
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  /* Vertical line */
+  .collapsible-link::after {
+    content: '';
+    width: 2px;
+    height: 14px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 7px);
+    right: calc(1rem + 6px);
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  .collapsible-link[aria-expanded='true']::after {
+    transform: rotate(90deg) translateX(-1px);
+  }
+  
+  .collapsible-link[aria-expanded='true']::before {
+    transform: rotate(180deg);
+  }
+  
+
+.dropdown .btn{
+    background: none;
+    outline: none;
+    color: #000000;
+}
+
+.dropdown .btn:hover{
+    background: none !important;
+    outline: none;
+    color: #ecb10f !important;
+    transition: 0.3s;
+}
+
+    .navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+   
+
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+   
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+
+    .navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+   
+    .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+   
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+
+  .dropdown-menu{
+      border: 1px solid #095a83 !important;
+      border-radius: 15px;
+  }
+
+  .active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 2px solid #095a83; 
+    box-shadow: none;
+    width: 250px !important;
+  }
+  .active-cyan-2 input.form-control[type=text] {
+    border-bottom: 2px solid #095a83;
+    box-shadow: none;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 0px;
+    width: 150px !important;
+  }
+
+  .active-cyan-2 .fa, .active-cyan-2 .fa {
+    color: #095a83;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+
+  #events img{
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, .2);
+  }
+  
+  .community p{
+        margin-top: 30px;
+  }
+
+.contact_map i{
+    color: #345e85;
+}
+
+.staff-box{
+    box-shadow: 10px 20px 10px 5px rgb(198, 198, 202);
+    height:280px;
+    width:auto; 
+    overflow:auto; 
+    max-width:100%;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    border: 1px solid #095a83;
+    border-radius: 5px;
+    margin-bottom: 150px;
+  }
+
+  .staff-box ul li{
+      border: none;
+  }
+
+  .project_team .staff-box{
+    height:200px;
+  }
+
+  .bph_team .staff-box{
+      height: 120px;
+      margin-top: 50px;
+  }
+
+  .cfo_team .staff-box{
+      height: 60px;
+      margin-bottom: 150px;
+      margin-top: 50px;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0a6796;
+    border-radius: 5px;  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #107cb3;
+  }
+
+  .dropdown a{
+    font-size: 15px !important;
+    margin-top: 3px;
+}
+
+
+    .fa-instagram{
+        font-size: 25px;
+        color: #405DE6;
+    }
+
+    .fa-instagram:hover{
+        color: #000000;
+    }
+
+@media only screen and (max-width:992px) {
+
+    #parallax_4{
+        margin-top: -50px;
+    }
+
+    #parallax_6 h2{
+        font-size: 20px;
+        color: #095a83;
+        font-weight: 500;
+    }
+
+    .program  .card{
+        height: auto;
+    }
+
+    #economy .card{
+        height: auto;
+    }
+
+    .program h4{
+        font-size: 18px;
+    }
+
+
+    #parallax_4 .heading_main h2 {
+        font-size: 25px !important;
+      
+    }
+    
+    .active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+        width: auto !important;
+      }
+      .active-cyan-2 input.form-control[type=text] {
+        width: auto !important;
+      }
+
+      .active-cyan-2 .fa, .active-cyan-2 .fa {
+        color: #095a83;
+      }
+
+      #parallax_5 .heading_main h2{
+          font-size: 30px;
+      }
+
+      .staff-box{
+        box-shadow: 10px 20px 10px 5px rgb(198, 198, 202);
+        height:280px;
+        width:auto;
+        border:1px solid #095a83; 
+        overflow:auto; 
+        max-width:100%;
+        font-family: 'Poppins', sans-serif;
+        color: #000000;
+        font-size: 14px;
+        margin-bottom: 80px;
+    }
+
+     .bph_team .staff-box{
+      height: 130px;
+      margin-top: 20px;
+  }
+
+  .cfo_team .staff-box{
+    height: 80px;
+    margin-top: 5px;
+    margin-bottom: 80px;
+}
+
+.dropdown a{
+    font-size: 15px !important;
+    margin-left: 5px;
+}
+
+.fa-instagram{
+    font-size: 23px;
+    color: #405DE6;
+}
+
+}
+
